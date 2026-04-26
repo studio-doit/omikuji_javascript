@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<title>おみくじ</title>
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<style>
+#omikuji-box {
+  position: absolute;
+  top: 20px;
+  left: 100px;
+  z-index: 10;
+}
+#button {
+  position: absolute;
+  top: 420px;
+  left: 200px;
+  width:150px;
+}
+#kichi,#chukichi,#shoukichi,#suekichi,#kyou,#daikyou, #daikichi{
+  position: absolute;
+  top: 10px;
+  left: 230px;
+  z-index: 1;
+}
+</style>
+
+
+
+</head>
+ 
+<body>
+    <div id = "omikuji-box"><img src="omikuji-box.png" alt="" width="360" /></div>
+
+    <div id = "kichi"><img src="kichi.png" alt=""  width="100" /></div>
+    <div id = "chukichi"><img src="chukichi.png" alt=""  width="100" /></div>
+    <div id = "shoukichi"><img src="shoukichi.png" alt=""  width="100" /></div>
+    <div id = "suekichi"><img src="suekichi.png" alt=""  width="100" /></div>
+    <div id = "kyou"><img src="kyou.png" alt=""  width="100" /></div>
+    <div id = "daikyou"><img src="daikyou.png" alt=""  width="100" /></div>
+    <div id = "daikichi"><img src="daikichi.png" alt=""  width="100" /></div>
+
+<button id="button" type="button" onclick="Run()">おみくじを引く</button>
+ 
+<script src="omikuji.js"></script>
+ 
+</body>
+</html>
